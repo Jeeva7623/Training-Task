@@ -5,14 +5,56 @@ body
 .line1
 {
     border:1px solid #AD6A05;
-    width: 50%;
+    width: 30%;
     text-align: left;
     margin-left: 0;
     margin-top:80px
 }
 .left
 {
-    width:25%;
-    margin-top:150px;
-    margin-left:400px;
+    width:30%;
+    margin-top:100px;
+    margin-left:250px;
 }
+.creative p:first-child
+{
+   position:relative;
+   top:100px;
+   left:31%;
+   font-size: 6rem;
+   font-weight: bold;
+   color: #AD6A05;
+}
+.creative :nth-child(2)
+{
+   position:relative;
+   left:30%;
+   font-size: 8rem;
+   font-weight: bold;
+   color:#CD4825; 
+   line-height: 20px;
+}
+.right
+{
+    width:30%;
+    margin-top:150px;
+    margin-left:50%;
+}
+.bottom
+{
+    width:80%;
+    margin-top:200px;
+    margin-left:30%;
+}
+.circle {
+    
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top:250px;
+    float:left;
+    display: inline;
+}
+
+
